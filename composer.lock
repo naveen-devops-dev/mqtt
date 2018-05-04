@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "96ad71e0d3d513149e0b504957d52c45",
+    "packages": [
+        {
+            "name": "binsoul/net-mqtt",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/binsoul/net-mqtt.git",
+                "reference": "286b28e6014739b19e0e7ce0cd5871cdd0cef9b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/binsoul/net-mqtt/zipball/286b28e6014739b19e0e7ce0cd5871cdd0cef9b3",
+                "reference": "286b28e6014739b19e0e7ce0cd5871cdd0cef9b3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.0",
+                "phpunit/phpunit": "~4.0||~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BinSoul\\Net\\Mqtt\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Mößler",
+                    "email": "code@binsoul.de",
+                    "homepage": "https://github.com/binsoul",
+                    "role": "Developer"
+                }
+            ],
+            "description": "MQTT protocol implementation",
+            "homepage": "https://github.com/binsoul/net-mqtt",
+            "keywords": [
+                "mqtt",
+                "net"
+            ],
+            "time": "2017-04-03T20:17:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

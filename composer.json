@@ -1,0 +1,5 @@
+{
+    "require": {
+        "binsoul/net-mqtt": "^0.2.1"
+    }
+}
